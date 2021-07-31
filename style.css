@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    width: 70rem;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: azure;
+    margin-top: 50px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.title{
+    width: 40%;
+  
+}
+.title .text{
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 20px;
+    color: rgb(166, 83, 243);
+}
+.smalltext{
+    font-weight: 700;
+    padding: 20px;
+}
+.second-flex{
+   
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first{
+    width: 70%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+     
+    padding: 1rem 2rem;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+}
+.second{
+
+ 
+    width: 70%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    background-color: whitesmoke;
+   
+    padding: 1rem 2rem;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+}
+.third{
+    width: 70%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-self:flex-end;
+    background-color: whitesmoke;
+   
+    padding: 1rem 2rem;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+}
+.star-rating i{
+    color: gold;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.a{
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom:10px;
+     background-color: violet;
+     border-radius: 20px;
+     box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+    
+
+}
+
+.b{
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom:5px;
+     background-color: violet;
+     border-radius: 20px;
+     box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+}
+
+.c{
+    width: 25%;
+   
+    margin-top: 30px;
+      
+
+     background-color: violet;
+     border-radius: 20px;
+     box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+}
+.flexed{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.a img{
+    width: 2rem;
+    border-radius: 50%;
+}
+.b img{
+    width: 2rem;
+    border-radius: 50%;
+}
+.c img{
+    width: 2rem;
+    border-radius: 50%;
+}
+.ft{
+padding-left: 1rem;
+}
+.name{
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.info{
+    padding: 10px;
+}
+    
+@media only screen and (max-width: 1150px){
+    .container{
+        width: 60rem;
+    }
+    .title{
+        width: 40%;
+    }  
+    .second-flex{
+   
+        width: 60%;
+    }  
+} 
+@media only screen and (max-width: 990px){
+    .container{
+        width: 50rem;
+    }
+    
+    .first , .second , .third{
+      width: 90%;
+    }
+}
+@media only screen and (max-width: 825px){
+  .container{
+      width: 80%;
+  }
+  .one{
+      display: block;
+  }
+  .title{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .second-flex{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .two{
+      display: block;
+  }
+  .a, .b , .c{
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 654px){
+    .container{
+        width: 33rem;
+    }
+    .title{
+        width: 80%;
+    }
+    .second-flex{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 555px){
+    .container{
+        width: 90%;
+    }
+    .title .text{
+        font-size: 2.5rem;
+    }
+    .second-flex{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 527px){
+    .container{
+        width: 90%;
+        
+    }
+    .title{
+        margin: 0;
+    }
+     .title .text{
+         font-size: 2rem;
+     }
+    .second-flex{
+        margin: 0;
+    }
+    .first, .second, .third{
+        width: 100%;
+        display: block;
+      
+    }
+    .a ,.b , .c{
+      width: 70%;  
+    }
+}
